@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Appuyez sur une touche</h1>
+  <div class="container">
+    <div id="instructions">
+      <h3>Le jeu du Simon</h3>
+      Vous devez appuyer sur la touche qui vient de s'allumer.<br>
+      Le jeu répète la même couleur et le même son, puis ajoute au hasard une nouvelle couleur. <br>
+      Chaque fois que le joueur reproduit correctement la séquence, le jeu ajoute une nouvelle couleur.<br><br>
+      But du jeu:<br>
+      Le but du jeu est de reproduire la plus longue suite créée aléatoirement par le jeu. 
+      </div>
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+    <button id="instructions-btn">instructions</button>
+
+    <h3>Fait par Eneko O'Kelly</h3>
+
+  </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="game.js"></script>
+</body>
+
+</html>
